@@ -1,5 +1,5 @@
 # [Aim Booster](https://luandev-ux.github.io/teste-levi/)
-![SS](img/ss.jpg)
+![SS](img/ss.png)
 <br>
 <br>
 
