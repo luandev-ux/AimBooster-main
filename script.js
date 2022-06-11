@@ -59,7 +59,7 @@ const gameOver = () => {
         highscoreText.innerHTML = `Highscore ${highscore}`
     }
     score = 0;
-    timeLeft = 0;
+    timeLeft = 32;
     scoreText.innerHTML = score;
     timerText.innerHTML = timeLeft;
 
