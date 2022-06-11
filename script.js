@@ -32,7 +32,7 @@ const play = () => {
 window.onload = () => {
     if(localStorage.getItem('highscore')){
         highscore = localStorage.getItem('highscore')
-        highscoreText.innerHTML = `Highscore ${highscore}`
+        highscoreText.innerHTML = `Placar máximo ${highscore}`
     }
     scoreText.innerHTML = score;
     timerText.innerHTML = timeLeft;
@@ -51,26 +51,26 @@ const respawn = () => {
     target.style.left = `${left}px`
 }
 
-// const gameOver = () => {
-//     alert(`GameOver \n You Score = ${score}`)
-//     if(localStorage.getItem('highscore') < score){
-//         localStorage.setItem('highscore', score)
-//         highscore = score;
-//         highscoreText.innerHTML = `Highscore ${highscore}`
-//     }
-//     score = 0;
-//     timeLeft = 0;
-//     scoreText.innerHTML = score;
-//     timerText.innerHTML = timeLeft;
+const gameOver = () => {
+    alert(`Tente novamente \n Sua pontuação foi: ${score}`)
+    if(localStorage.getItem('highscore') < score){
+        localStorage.setItem('highscore', score)
+        highscore = score;
+        highscoreText.innerHTML = `Highscore ${highscore}`
+    }
+    score = 0;
+    timeLeft = 0;
+    scoreText.innerHTML = score;
+    timerText.innerHTML = timeLeft;
 
-// }
-// const timer = () => {
-//     if(timeLeft === 0){
-//         gameOver()
-//     }
-//     timeLeft -= 1;
-//     timerText.innerHTML = timeLeft;
-// }
+}
+const timer = () => {
+    if(timeLeft === 0){
+        gameOver()
+    }
+    timeLeft -= 1;
+    timerText.innerHTML = timeLeft;
+}
 
 
 document.addEventListener('click', ()=> {

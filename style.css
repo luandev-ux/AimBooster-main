@@ -15,7 +15,7 @@ body {
     width: 100vw;
     cursor: none;
     font-family: 'Press Start 2P', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 255, 98);
 }
 
 img {
@@ -72,19 +72,17 @@ img {
     z-index: 0;
 }
 
-.score {
+/* .score {
     position: fixed;
-    visibility: hidden;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4rem;
     opacity: 0.5;
-}
+} */
 
 .timer {
     position: fixed;
-    visibility: hidden;
     top: 0%;
     right: 0%;
     margin: 20px;
@@ -93,7 +91,6 @@ img {
 
 .highscore {
     text-transform: uppercase;
-    visibility: hidden;
     position: fixed;
     bottom: 0%;
     right: 0%;
