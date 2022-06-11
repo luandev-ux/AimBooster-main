@@ -10,7 +10,7 @@ const shoot = document.querySelector('.shoot')
 
 
 var score = 0;
-var timeLeft = 0;
+var timeLeft = 30;
 var highscore = 0;
 
 document.querySelector('.menupage').addEventListener('click', (e) => e.stopPropagation())
