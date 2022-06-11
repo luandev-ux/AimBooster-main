@@ -4,4 +4,4 @@
 <br>
 
 
-This is a simple Game created using HTML, CSS and JS
+Este é um jogo simples criado usando HTML, CSS e JS
