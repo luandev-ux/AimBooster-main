@@ -56,7 +56,7 @@ const gameOver = () => {
     if(localStorage.getItem('highscore') < score){
         localStorage.setItem('highscore', score)
         highscore = score;
-        highscoreText.innerHTML = `Highscore ${highscore}`
+        highscoreText.innerHTML = `Placar máximo ${highscore}`
     }
     score = 0;
     timeLeft = 32;
