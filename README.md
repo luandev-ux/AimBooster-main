@@ -3,6 +3,7 @@ Identifique o círculo vermelho, e aperte para acumular o máximo de pontos poss
 <br>
 O placar máximo é registrado a cada 30 segundos
 <br>
+<br>
 Este é um jogo simples criado usando HTML, CSS e JS
 ![SS](img/ss.png)
 
