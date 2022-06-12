@@ -103,6 +103,6 @@ target.addEventListener('click', (e) => {
 })
 swal({
     title: 'Bem-vindo(a) ao jogo!',
-    text: "Identifique o círculo vermelho, e aperte para acumular o máximo de pontos possíveis em um tempo limitado! \n \n O placar máximo é registrado a cada 30 segundos",
+    text: "Identifique o círculo vermelho, e aperte para acumular o máximo de pontos possíveis em um tempo limitado! \n \n O placar máximo é registrado a cada 30 segundos. \n \n Aperte OK para começar!",
     type: 'info',
   })
