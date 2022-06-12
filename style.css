@@ -90,6 +90,11 @@ img {
     font-size: 2rem;
 }
 
+.timer span.in {
+    transform: translate(-50%, -50%) rotate(0deg);
+	animation: goIn .5s ease-in-out;
+}
+
 .highscore {
     text-transform: uppercase;
     position: fixed;

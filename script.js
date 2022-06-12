@@ -49,6 +49,7 @@ const respawn = () => {
     const left = Math.floor(Math.random() * window.innerWidth)
     target.style.top = `${top}px`
     target.style.left = `${left}px`
+    window.navigator.vibrate(200);
 }
 
 const gameOver = () => {
@@ -76,6 +77,7 @@ const timer = () => {
 document.addEventListener('click', ()=> {
     damage.currentTime = 0;
     damage.play()
+    
 })
 
 
