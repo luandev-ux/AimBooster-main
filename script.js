@@ -92,6 +92,6 @@ target.addEventListener('click', (e) => {
 })
 swal({
     title: 'Teste cognitivo',
-    text: "Identifique o círculo vermelho, e pressione para conseguir o máximo de pontos possíveis em um tempo limitado!",
+    text: "Identifique o círculo vermelho, e pressione para acumular o máximo de pontos possíveis em um tempo limitado!",
     type: 'info',
   })
