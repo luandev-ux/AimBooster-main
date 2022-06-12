@@ -16,6 +16,7 @@ body {
     width: 100vw;
     color: rgb(0, 255, 98);
     user-select: none;
+    overscroll-behavior-y: none;
 }
 
 img {
