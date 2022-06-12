@@ -5,6 +5,7 @@ const timerText = document.querySelector('.timer')
 const highscoreText = document.querySelector('.highscore')
 const playbutton = document.querySelector('.menupage .playbtn')
 
+
 const damage = document.querySelector('.damage')
 const shoot = document.querySelector('.shoot')
 var score = 0;

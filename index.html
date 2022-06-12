@@ -8,8 +8,8 @@
     <meta name="description" content="Free Web tutorials">
     <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="author" content="Teste coginitivo">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fullscreen.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fullscreen.css">
     <link rel = "icon" type = "image/png" href = "./img/cognitive_functions_brain.png">
     <title>Teste Cognitivo</title>
 
@@ -22,37 +22,26 @@
         <div class="playbtn">
             Jogar
         </div>
-        <!DOCTYPE html>
-        <html lang="en">
-
-        <head>
-            <meta charset="UTF-8">
-            <title>Fullscreen</title>
-            <link rel="stylesheet" href="./fullscreen.css">
-
-        </head>
-
-        <body>
-
-            <button class="js-toggle-fullscreen-btn toggle-fullscreen-btn" aria-label="Enter fullscreen mode" hidden>
-                <svg class="toggle-fullscreen-svg" width="28" height="28" viewBox="-2 -2 28 28">
-                    <g class="icon-fullscreen-enter">
-                        <path d="M 2 9 v -7 h 7" />
-                        <path d="M 22 9 v -7 h -7" />
-                        <path d="M 22 15 v 7 h -7" />
-                        <path d="M 2 15 v 7 h 7" />
-                    </g>
-
-                    <g class="icon-fullscreen-leave">
-                        <path d="M 24 17 h -7 v 7" />
-                        <path d="M 0 17 h 7 v 7" />
-                        <path d="M 0 7 h 7 v -7" />
-                        <path d="M 24 7 h -7 v -7" />
-                    </g>
-                </svg>
-            </button>
-
-            <script src="./fullscreen.js"></script>
+            <!-- partial:index.partial.html -->
+<button class="js-toggle-fullscreen-btn toggle-fullscreen-btn" aria-label="Enter fullscreen mode" hidden>
+	<svg class="toggle-fullscreen-svg" width="28" height="28" viewBox="-2 -2 28 28">
+		<g class="icon-fullscreen-enter">
+			<path d="M 2 9 v -7 h 7" />
+			<path d="M 22 9 v -7 h -7" />
+			<path d="M 22 15 v 7 h -7" />
+			<path d="M 2 15 v 7 h 7" />
+		</g>
+		
+		<g class="icon-fullscreen-leave">
+			<path d="M 24 17 h -7 v 7" />
+			<path d="M 0 17 h 7 v 7" />
+			<path d="M 0 7 h 7 v -7" />
+			<path d="M 24 7 h -7 v -7" />
+		</g>
+	</svg>
+</button>
+<script  src="./js/fullscreen.js"></script>
+            <script src="./css/fullscreen.css"></script>
 
         </body>
 
@@ -73,11 +62,11 @@
 
     </div>
 
-    <audio src="sound/damage.wav" class="damage"></audio>
-    <audio src="sound/shoot.wav" class="shoot"></audio>
+    <audio src="./sound/damage.wav" class="damage"></audio>
+    <audio src="./sound/shoot.wav" class="shoot"></audio>
 
     <div class="highscore">Placar máximo 0</div>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
     
 </body>
 
