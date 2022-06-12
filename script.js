@@ -53,7 +53,7 @@ const respawn = () => {
 }
 
 const gameOver = () => {
-    alert(`Tente novamente \n Sua pontuação foi: ${score}`)
+    alert(` \n Sua pontuação foi: ${score}`)
     if(localStorage.getItem('highscore') < score){
         localStorage.setItem('highscore', score)
         highscore = score;
