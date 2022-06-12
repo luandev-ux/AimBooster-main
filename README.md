@@ -6,5 +6,6 @@ O placar máximo é registrado a cada 30 segundos
 <br>
 Este é um jogo simples criado usando HTML, CSS e JS
 <br>
+<br>
 ![SS](img/ss.png)
 
