@@ -49,7 +49,7 @@ const respawn = () => {
     const left = Math.floor(Math.random() * window.innerWidth)
     target.style.top = `${top}px`
     target.style.left = `${left}px`
-    window.navigator.vibrate(200);
+    window.navigator.vibrate(250);
 }
 
 const gameOver = () => {
