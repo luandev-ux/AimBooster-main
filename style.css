@@ -25,6 +25,15 @@ img {
     cursor:default;
     
 }
+@media only screen and (max-width: 480px, max-height: 480px) {
+    img {
+        width: 100%;
+        height: 100%;
+        user-select: none;
+        cursor:default;
+        
+    }
+  }
 
 .menupage {
     position: fixed;
