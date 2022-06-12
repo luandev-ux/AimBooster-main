@@ -91,7 +91,7 @@ target.addEventListener('click', (e) => {
     respawn();
 })
 swal({
-    title: 'Teste cognitivo',
-    text: "Identifique o círculo vermelho, e pressione para acumular o máximo de pontos possíveis em um tempo limitado!",
+    title: 'Bem-vindo(a) ao jogo!',
+    text: "Identifique o círculo vermelho, e aperte para acumular o máximo de pontos possíveis em um tempo limitado!",
     type: 'info',
   })
