@@ -11,9 +11,19 @@ var score = 0;
 var timeLeft = 30;
 var highscore = 0;
 
+document.addEventListener("keydown", my_onkeydown_handler);
 document.addEventListener('contextmenu', event => event.preventDefault());
 
 document.querySelector('.menupage').addEventListener('click', (e) => e.stopPropagation())
+function my_onkeydown_handler( event ) {
+    switch (event.keyCode) {
+        case 116 : // 'F5'
+            event.preventDefault();
+            event.keyCode = 0;
+            window.status = "F5 disabled";
+            break;
+    }
+}
 
 playbutton.addEventListener('click', () => {
     document.querySelector('.menupage').style.opacity = "0";
