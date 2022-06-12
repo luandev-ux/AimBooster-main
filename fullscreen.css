@@ -8,6 +8,7 @@
 	background: none;
 	cursor: pointer;
 	outline: none;
+    overscroll-behavior-y: none;
 }
 
 
