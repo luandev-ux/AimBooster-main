@@ -7,11 +7,11 @@ const playbutton = document.querySelector('.menupage .playbtn')
 
 const damage = document.querySelector('.damage')
 const shoot = document.querySelector('.shoot')
-
-
 var score = 0;
 var timeLeft = 30;
 var highscore = 0;
+
+
 
 document.querySelector('.menupage').addEventListener('click', (e) => e.stopPropagation())
 
