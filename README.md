@@ -1,7 +1,11 @@
-# [Teste Levi](https://luandev-ux.github.io/teste-levi/)
-![SS](img/ss.png)
+# [Teste Cognitivo para pesssoas especiais](https://luandev-ux.github.io/teste-levi/)
+Identifique o círculo vermelho, e aperte para acumular o máximo de pontos possíveis em um tempo limitado!
+<br>
+O placar máximo é registrado a cada 30 segundos
 <br>
 <br>
-
-
 Este é um jogo simples criado usando HTML, CSS e JS
+<br>
+<br>
+![SS](img/ss.png)
+
