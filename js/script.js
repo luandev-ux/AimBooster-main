@@ -65,14 +65,14 @@ const respawn = () => {
 }
 
 const gameOver = () => {
-    alert(`Sua pontuação foi: ${score}`)
+    // alert(`Sua pontuação foi: ${score}`)
     if(localStorage.getItem('highscore') < score){
         localStorage.setItem('highscore', score)
         highscore = score;
         highscoreText.innerHTML = `Placar máximo ${highscore}`
     }
     score = 0;
-    timeLeft = 32;
+    timeLeft = 31;
     scoreText.innerHTML = score;
     timerText.innerHTML = timeLeft;
 
