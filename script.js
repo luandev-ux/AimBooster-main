@@ -11,7 +11,7 @@ var score = 0;
 var timeLeft = 30;
 var highscore = 0;
 
-
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 document.querySelector('.menupage').addEventListener('click', (e) => e.stopPropagation())
 
@@ -50,10 +50,11 @@ const respawn = () => {
     target.style.top = `${top}px`
     target.style.left = `${left}px`
     window.navigator.vibrate(250);
+    
 }
 
 const gameOver = () => {
-    alert(` \n Sua pontuação foi: ${score}`)
+    alert(`Sua pontuação foi: ${score}`)
     if(localStorage.getItem('highscore') < score){
         localStorage.setItem('highscore', score)
         highscore = score;
@@ -68,11 +69,11 @@ const gameOver = () => {
 const timer = () => {
     if(timeLeft === 0){
         gameOver()
+        
     }
     timeLeft -= 1;
     timerText.innerHTML = timeLeft;
 }
-
 
 document.addEventListener('click', ()=> {
     damage.currentTime = 0;
@@ -89,3 +90,8 @@ target.addEventListener('click', (e) => {
     scoreText.innerHTML = score;
     respawn();
 })
+swal({
+    title: 'Teste cognitivo',
+    text: "Identifique o círculo vermelho, e pressione para conseguir o máximo de pontos possíveis em um tempo limitado!",
+    type: 'info',
+  })
